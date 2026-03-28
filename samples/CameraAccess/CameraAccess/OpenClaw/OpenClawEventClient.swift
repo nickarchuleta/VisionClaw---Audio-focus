@@ -123,15 +123,20 @@ class OpenClawEventClient {
       "id": UUID().uuidString,
       "method": "connect",
       "params": [
-        "minProtocol": 1,
-        "maxProtocol": 1,
+        "minProtocol": 3,
+        "maxProtocol": 3,
         "client": [
-          "id": "gateway-client",
+          "id": "ios-node",
           "displayName": "VisionClaw Glass",
           "version": "1.0",
           "platform": "ios",
-          "mode": "backend"
+          "mode": "node"
         ],
+        "role": "node",
+        "scopes": [] as [String],
+        "caps": ["camera", "voice"],
+        "commands": [] as [String],
+        "permissions": [:] as [String: Any],
         "auth": [
           "token": GeminiConfig.openClawGatewayToken
         ]
