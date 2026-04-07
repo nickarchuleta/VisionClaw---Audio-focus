@@ -1,4 +1,4 @@
-# VisionClaw
+# VisionClaw but with an audio focus
 
 ![VisionClaw](assets/teaserimage.png)
 
