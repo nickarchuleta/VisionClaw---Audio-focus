@@ -1,6 +1,23 @@
 # VisionClaw but with an audio focus
 
-![VisionClaw](assets/teaserimage.png)
+The back end (whatever mac mini / macbook pro / gaming pc / etc.) you got chillin at home, the "real brain" running the claw your glasses are talking too 
+![35F67AA4-10F6-43A4-8F42-75751E691AD2](https://github.com/user-attachments/assets/bebc9701-6275-4875-acad-ffbafcfbc3e4)
++
+![i-glasshole-feat jpg](https://github.com/user-attachments/assets/6bca775f-4d3d-43a7-8b98-581306422268)
+=
+a "High frequency generator" vibe from Dark Knight / Cerebro from X-men / jarvis from Iron man type of vibe.
+The below repo is bascially the exact same OG vision claw thing. 
+
+What I'm going to do on this is configure Gemini Live to primarily just use a live audio feed from the glasses to feed commands to claw (or Hermes / claude code / whatever agent you like). In an attempt to create less latency and greater throughput of prompts to your agent and also to increase the quality of ambient agentic work that Vision Claw promises. 
+
+Lego blocks being used here:
+- https://github.com/Intent-Lab/VisionClaw
+- https://github.com/openclaw/openclaw
+- https://www.ray-ban.com/usa/ray-ban-meta-ai-glasses-gen-1 (refurbished) for my particular experiment
+- Claude code (All 3 claudes)
+- Cursor (Auto)
+- Grok 4.20 multi agent 
+
 
 A real-time AI assistant for Meta Ray-Ban smart glasses. See what you see, hear what you say, and take actions on your behalf -- all through voice.
 
